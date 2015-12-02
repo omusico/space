@@ -31,22 +31,7 @@ return array(
                     'defaults' => array(
                         'controller' => 'Application\Controller\UserRestful',
                     ),
-                ),
-//                'may_terminate' => false,
-                'child_routes' => array(
-                    'space-api' => array(
-                        'type' => 'Zend\Mvc\Router\Http\Segment',
-                        'options' => array(
-                            'route' => '/spaces[/:id]',
-                            'constraints' => array(
-                                'id' => '[0-9]+',
-                            ),
-                            'defaults' => array(
-                                'controller' => 'Application\Controller\SpaceRestful',
-                            ),
-                        ),
-                    ),
-                ),
+                )
             ),
         ),
     ),

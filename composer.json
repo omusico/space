@@ -9,7 +9,11 @@
     "homepage": "http://framework.zend.com/",
     "require": {
         "php": ">=5.3.3",
-        "zendframework/zendframework": "2.3.3",
-        "zendframework/zftool": "dev-master"
+        "zendframework/zendframework": "2.5.*",
+        "zendframework/zftool": "dev-master",
+        "symfony/finder": "^3.0",
+        "sensio/generator-bundle": "^3.0",
+        "twig/twig": "^1.23",
+        "symfony/filesystem": "^3.0"
     }
 }

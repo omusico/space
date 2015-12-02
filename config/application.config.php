@@ -1,5 +1,4 @@
-<?php
-return array(
+<?php return array(
     'modules' => array(
         'Application',
     ),
