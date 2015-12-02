@@ -1,0 +1,19 @@
+Shop:
+  - Dashboard
+  - Orders
+  - Customers
+  - Products
+  - Collections
+  - Discounts
+  - Gift cards
+  - Reports
+
+Website:
+  - Blog
+  - Sites
+  - Navigation
+  - Themes
+
+Config:
+  - Apps
+  - Settings
